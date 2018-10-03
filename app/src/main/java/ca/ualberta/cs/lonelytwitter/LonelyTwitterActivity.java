@@ -1,3 +1,8 @@
+/**
+ *  chatting with yourself.
+ *  A meaningless application for wasting time.
+ */
+
 package ca.ualberta.cs.lonelytwitter;
 
 import java.io.BufferedReader;
@@ -45,6 +50,11 @@ public class LonelyTwitterActivity extends Activity {
 			}
 		});
 	}
+
+
+	/**
+	 *   after creating a activity
+	 */
 
 	@Override
 	protected void onStart() {
